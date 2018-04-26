@@ -13,7 +13,7 @@ class Projects extends Component {
           <div className="row">
             <div className="project lighting text col-lg-4 col-md-6 col-sm-12 text-center p-4">
               <div className="bg-opacity">
-                    <h2 className="display-4 lightning-title">Furniture </h2>
+                    <h2 className="display-4 lightning-title">Lighting </h2>
                     <p className="lead project">Eum te percipit platonem gubergren, ne sea dolor possit.</p>
                   <div className="panel-button view-btn">
                     <a className="btn btn-secondary view-project mr-2 btn-lg" href="#"><span>View More</span></a><br/>

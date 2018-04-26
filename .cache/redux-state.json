@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/AGCUSER/Desktop/Tatong/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a06d2185aa000e4da5636d49c071d0ce",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -419,16 +409,14 @@
       "siteMetadata": {
         "title": "Tatong"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-24T23:47:36.048Z",
+      "buildTime": "2018-04-26T07:26:10.973Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9293c8d93d38bb473fac7ed3467a48f4",
+        "contentDigest": "6ab50af61e15a6af09758837d5c6c72c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -449,7 +437,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c9616c03eca73f63c711314af63bdb7",
+        "contentDigest": "b2e3a184f6398df74cec8c9662037be8",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /FaQ/": {
+      "layout": "index",
+      "jsonName": "fa-q.json",
+      "internalComponentName": "ComponentFaQ",
+      "path": "/FaQ/",
+      "component": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/FaQ.js",
+      "componentChunkName": "component---src-pages-fa-q-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/FaQ.js",
+      "id": "SitePage /FaQ/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5bdf2866aec5e401e59845a60d7ffbc0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -470,7 +479,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "27f1eb3f0fcb51a7eb563b585ac72916",
+        "contentDigest": "897a439319b08db0e94f8e8a3b3e2015",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -491,7 +500,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dd55d1e9486bc74fc3de46cd56f093de",
+        "contentDigest": "cdf3b9226fc2d07c0b24b23ad4776b58",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -512,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "45530316ba6bc752af749cb1c197b7f3",
+        "contentDigest": "b27139f91b18aeaf0d1f77b63afcc246",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }

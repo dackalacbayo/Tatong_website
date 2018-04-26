@@ -7,13 +7,13 @@ import image3 from '../assets/images/image3.jpg'
 class CompanyProfile extends Component {
   render(){
     return(
-      <div className="container py-5">
+      <div className="container">
         <div className="row">
-            <div className="col-lg-4 col-md-10 col-sm-12 py-5 text-white my-auto text-center text-lg-left mx-auto ml-lg-0 mr-lg-auto">
+            <div className="col-lg-4 col-md-10 col-sm-12 py-4 text-white my-auto text-sm-left text-lg-left mx-auto ml-lg-0 mr-lg-auto">
                 <h1 className="profile-title display-4 mb-2 font-weight-normal">What we do</h1>
                 <hr className="profile my-1 pb-1 border-light"/>
                 <p className="lead">Eum te percipit platonem gubergren, ne sea dolor possit. Ne homero partem lorem ipsum&nbsp;dolor set amet lorem ipsum dolor</p>
-                <ul className="project-list lead">
+                <ul className="project-list lead ">
                   <li className="project-list"><a className="" href="#furnitures">Furnitures</a></li>
                   <li className="project-list"><a className="" href="#projects">Lighting</a></li>
                   <li className="project-list"><a className="" href="#projects">Interior Design / Architecture</a></li>
@@ -21,7 +21,7 @@ class CompanyProfile extends Component {
                 </ul>
              </div>
 
-              <div className="col-lg-5 col-md-6 col-sm-12 text-center mx-auto py-1">
+              <div className="col-lg-5 col-md-6 col-sm-12 text-center mx-auto">
               <div className="carousel slide mb-2" id="carouselExampleIndicators" data-ride="carousel-1">
               <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" className="img1 active mb-4"></li>

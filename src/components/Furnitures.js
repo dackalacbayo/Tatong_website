@@ -24,7 +24,7 @@ class Furnitures extends Component {
                     <div className="vertical-line-right"></div>
                   </div>
                   <div className="col-6 order-sm-1 pr-0"><img className="rounded-0 my-0 w-100" src={image2} height="220"/></div>
-                  <div className="w-100"></div>
+                
                   <div className="col-6 order-sm-4 pl-0 ">
                     <h1 className="furniture-title-left display-4 font-weight-normal pl-4">Header</h1>
                     <p className="lead furniture-left pl-4">Eum te percipit platonem gubergren, ne sea dolor possit. Ne homero partem lorem ipsum&nbsp;dolor set amet lorem ipsum dolor</p>
