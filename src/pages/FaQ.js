@@ -2,7 +2,7 @@ import React , {Component} from 'react'
 import Link from 'gatsby-link'
 import logo from '../assets/images/white_logo_transparent@2x.png'
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
+
 
 const faqsProduct = [
   {question:'How do I edit a page?', answer:'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.',id:'collapse-1',href:'#collapse-1', display:true},

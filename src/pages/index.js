@@ -8,16 +8,16 @@ import Furnitures from '../components/Furnitures'
 import Projects from '../components/Projects'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
-
 import image  from '../assets/images/zenForce.png'
 import image1  from '../assets/images/zenforceBrochure.png'
+
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap.css';
+// import 'jquery/dist/jquery.min.js'
+// import 'bootstrap/dist/js/bootstrap.js';
 
 import { Header, Icon, Segment,Label, Dropdown,Grid,Input, TextArea, Divider, Button } from 'semantic-ui-react'
 
-// <section id="" className="">
-//       <img className="sec3_img"  src={image1} alt="generic"/>
-// </section>
 
 const IndexPage = () => (
     <div>

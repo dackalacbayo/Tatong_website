@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import Link from 'gatsby-link'
 import logo from '../assets/images/white_logo_transparent@2x.png'
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
 
 class Banner extends Component {
   render(){
