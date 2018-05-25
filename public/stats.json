@@ -1,20 +1,24 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-72339ef33ed94fe78502.js",
-      "component---src-pages-index-js-72339ef33ed94fe78502.js.map"
+      "component---src-pages-index-js-9183e7946132353eca1b.js",
+      "component---src-pages-index-js-9183e7946132353eca1b.js.map"
     ],
     "path---": [
       "path----0f9920d5ef7e42652228.js",
       "path----0f9920d5ef7e42652228.js.map"
     ],
     "component---src-pages-fa-q-js": [
-      "component---src-pages-fa-q-js-abd34e6f8a6dc8e40e58.js",
-      "component---src-pages-fa-q-js-abd34e6f8a6dc8e40e58.js.map"
+      "component---src-pages-fa-q-js-7e74ce06148700212dd2.js",
+      "component---src-pages-fa-q-js-7e74ce06148700212dd2.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5df67e2938abda944700.js",
-      "component---src-layouts-index-js-5df67e2938abda944700.js.map"
+      "component---src-layouts-index-js-9615528ca78974505a42.js",
+      "component---src-layouts-index-js-9615528ca78974505a42.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -38,14 +42,18 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-37a9b16d779eaa9ba240.js",
+      "component---src-pages-projects-js-37a9b16d779eaa9ba240.js.map"
+    ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-9e167fe3b76bbe388228.js",
+      "app-602e6e440cfe90995559.js",
       "build-js-styles.css",
-      "app-9e167fe3b76bbe388228.js.map",
+      "app-602e6e440cfe90995559.js.map",
       "build-js-styles.css.map"
     ],
     "path---fa-q": [

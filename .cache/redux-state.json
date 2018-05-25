@@ -1,18 +1,28 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "529b1770c9be92b81cedd8fd6c16f279",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -24,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -41,13 +51,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9ed2988206dbd33615ab32d716c3fb18",
+        "contentDigest": "9d7dbf441a918c8562524a6091b72087",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "id": "Plugin component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
@@ -59,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
@@ -80,13 +90,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f96e9c0158c33d49358f4215fb0363ab",
+        "contentDigest": "0e9af65940378d2893127b9c7a0335ac",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -98,7 +108,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -119,13 +129,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4963e30d2405e240842515edf863d2d4",
+        "contentDigest": "3ee42627a2f01a97460b8ed0bf60ca44",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -138,7 +148,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -155,13 +165,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "87903a846493a61be6cb0900add4fedf",
+        "contentDigest": "f72764235e727255dba2b503cc1f0ee1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -173,7 +183,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -190,13 +200,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7472b6a9525eaf0b944bef953c0dd846",
+        "contentDigest": "d42ebb8d00421e0de8f2e217dc5b88d7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -209,7 +219,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -226,13 +236,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3333d86b730bde3f6d886ef171f09c0c",
+        "contentDigest": "a301e39f5bc106057329b7891aab92df",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.10",
@@ -244,7 +254,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -303,13 +313,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9e6e4ab146c38c7849df2b41e6e0e5d1",
+        "contentDigest": "e2ababf357083d6556979752d1d0b336",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "C:/Users/AGCUSER/Desktop/Tatong",
+      "resolve": "C:/Users/AGCUSER/Desktop/TatongWebsite",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "7951b2fc3e070b81a4f199252f8bbc41",
@@ -319,7 +329,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/AGCUSER/Desktop/Tatong",
+      "pluginFilepath": "C:/Users/AGCUSER/Desktop/TatongWebsite",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -412,7 +422,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2306b69896c0cda19e293462a4103de4",
+        "contentDigest": "a23183b0116ec309cc144542cd0e31ce",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -421,14 +431,16 @@
       "siteMetadata": {
         "title": "Tatong"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-27T10:06:00.901Z",
+      "buildTime": "2018-05-25T08:56:57.245Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "74bbe3866e39c83339e265709d02bfeb",
+        "contentDigest": "089b324641857ea7e1a491381135a26f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -438,39 +450,60 @@
       "jsonName": "404.json",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/404.js",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/404.js",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2bd1c6c46b80317ce2b155077eaaa44d",
+        "contentDigest": "70a37d8c182f953cc4414f176903c1e8",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /FaQ/": {
+    "SitePage /contact/": {
       "layout": "index",
-      "jsonName": "fa-q.json",
-      "internalComponentName": "ComponentFaQ",
-      "path": "/FaQ/",
-      "component": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/FaQ.js",
-      "componentChunkName": "component---src-pages-fa-q-js",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/FaQ.js",
-      "id": "SitePage /FaQ/",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/contact.js",
+      "id": "SitePage /contact/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "743192b89113883e2eca0222b2916498",
+        "contentDigest": "d61027c5b47cffbc322a53ad10381ea5",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /faQ/": {
+      "layout": "index",
+      "jsonName": "fa-q.json",
+      "internalComponentName": "ComponentFaQ",
+      "path": "/faQ/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/faQ.js",
+      "componentChunkName": "component---src-pages-fa-q-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/faQ.js",
+      "id": "SitePage /faQ/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2c48e5144e94a9a0229744acdf4b83e7",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -480,18 +513,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/index.js",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/index.js",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4455f6d41d054acb908d31bfa52d1654",
+        "contentDigest": "f4504ab9bdc66e005babf52a2f6836e8",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -501,18 +534,39 @@
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
       "path": "/page-2/",
-      "component": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/page-2.js",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/page-2.js",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/page-2.js",
       "id": "SitePage /page-2/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "47b7012aeea893329c38a7c3e74962ab",
+        "contentDigest": "a34983af5c5c0327ca9856430907e671",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/": {
+      "layout": "index",
+      "jsonName": "projects.json",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects.js",
+      "componentChunkName": "component---src-pages-projects-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "44d0b7821a12fde7f6fecc979ad61a3b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -522,18 +576,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/404.js",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "C:/Users/AGCUSER/Desktop/Tatong/src/pages/404.js",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eb82e950af0c9fd872f2394789533f68",
+        "contentDigest": "d4a128832d83bb192e77bdac0b571b2a",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }

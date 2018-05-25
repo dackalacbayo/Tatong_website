@@ -1,49 +1,105 @@
-import React, { Component } from 'react'
-import image1 from '../assets/images/twodevices@2x.png'
+import React, { Component } from "react";
+import Link from "gatsby-link";
+import {
+  Header,
+  Icon,
+  Segment,
+  Label,
+  Dropdown,
+  Grid,
+  Input,
+  TextArea,
+  Divider,
+  Button,
+  Select
+} from "semantic-ui-react";
+import image1 from "../assets/images/image4.jpg";
+import image2 from "../assets/images/image4_2.jpg";
+import image3 from "../assets/images/image5.jpg";
+import image4 from "../assets/images/image6.jpg";
 
-const features = [
-    {title: 'Notifications for Individual and broadcast messages', active:false, icon:'fas fa-bell',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Task Creation & Management', active:true, icon:'fas fa-tasks',desc:'Involves in planning, tracking and reporting. It helps individual or groups to achieve goals.'},
-    {title: 'Email Integration', active:false, icon:'fas fa-emvelope',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Calendar View', active:false, icon:'fas fa-calendar-alt',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Task List View', active:false, icon:'fas fa-tasks',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Expense & Budget Tracker', active:true, icon:'fas fa-dollar-sign',desc:'Track project expenses for small to large-scale of projects that also include budget tracking'},
-    {title: 'In-App Search Facility', active:false, icon:'fas fa-search',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Commenting Facility', active:false, icon:'fas fa-comments',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Template Creation For Recurring Tasks', active:true, icon:'fas fa-list',desc:'Enables you to create a template for tasks that repeat at a desired interval'},
-    {title: 'Check In/Out from Sites', active:true, icon:'fas fa-check-circle',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Address Book For Client Details', active:false, icon:'fas fa-address-book',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Work Group Creation and Management', active:false, icon:'fas fa-users',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-    {title: 'Geo Tagging', active:true, icon:'fas fa-tags',desc:'Automatically attach location information to your digital media'},
-    {title: 'Detailed Reporting', active:true, icon:'fas fa-clipboard-list',desc:'Gives you automatic, accurate and structural digital reports'},
-    {title: 'Offline Capable', active:true, icon:'fas fa-power-off',desc:'Can access without an Internet Connection'},
-    {title: 'Mobile Ready', active:true, icon:'fas fa-mobile',desc:'Performs well even on mobile devices'},
-    {title: 'Chat Facility', active:false, icon:'fas fa-rocketchat',desc:'Donec sed odio dui. Etiam porta sem ut id elit. Morbi leo risus'},
-]
 
-const FeatureItem = ({title,icon,desc}) => (
-  <div className="col-lg-3">
-    <h2 className="featurette-heading"><i className={icon}></i></h2>
-    <h5 className="feature_title">{title}</h5>
-    <p className="feature_desc">{desc}</p>
+const items = [
+  {
+    icon: "fas fa-home",
+    title: "Professional Build",
+    image: image1,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  },
+  {
+    icon: "fas fa-truck",
+    title: "We Deliver Quality",
+    image: image2,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  },
+  {
+    icon: "fas fa-clock",
+    title: "Always On Time",
+    image: image3,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  },
+  {
+    icon: "fas fa-thumbs-up",
+    title: "We Are Pasionate",
+    image: image4,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  }
+];
+
+const Items = ({ icon, title, desc, image }) => (
+  <div className="col-md-3 col-sm-6 builder">
+    <div className="icon-box-wrapper py-3">
+      <div className="square-icon-box is-landing primary">
+        <div className="icon-box-wrapper">
+        <img className="card-img-top" src={image} alt="Card image cap" />
+        <div className="card-feature">
+          <div className="icon-box icon-square icon-circle mb-4">
+            <h3 className="featurette-heading py-2">
+              <i className={icon} />
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4 className="text-center">{title}</h4>
+    <p className="text-center">{desc}</p>
   </div>
-)
-
+  </div>
+);
 
 class Features extends Component {
-  render
-  render(){
-    return(
-      <div className="container text-center py-2">
-      <h2 className="feature-heading">What we do have</h2>
-      <div className="row">
-        {features.filter((feat) => {return (feat.active === true)})
-                 .map((feat) => {return <FeatureItem {...feat}/>})
-        }
+  render() {
+    return (
+      <div className="container-fluid">
+        <section className="services row pb-5">
+          <div className="container mb-3">
+            <div className="page-title text-center">
+              <h4 className="title display-5">Our Features</h4>
+            </div>
+          </div>
+          <div className="container mb-5">
+            <div className="subtittle ">
+              <h2 className="display-4 text-uppercase font-400">why choose us</h2>
+              <div className="divider-black text-center" />
+              <p className="pt-5 pb-3 text-center">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which dont look even
+                slightly believable. hidden in the middle of text.
+              </p>
+            </div>
+            <div className="row pt-5">
+              {items.map(item => <Items {...item} />)}
+            </div>
+          </div>
+        </section>
       </div>
-      </div>
-    )
+    );
   }
 }
 
-export default Features
+export default Features;
