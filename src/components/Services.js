@@ -9,14 +9,14 @@ import image4 from "../assets/images/image6.jpg";
 const items = [
   {
     title: "furniture",
-    href: "./",
+    href: "./projects#furniture",
     image: image1,
     desc:
       "Some quick example text to build on the card title and make up the bulk of the cards content"
   },
   {
     title: "lighting",
-    href: "./",
+    href: "./projects#lighting",
     image: image2,
     desc:
       "Some quick example text to build on the card title and make up the bulk of the cards content"

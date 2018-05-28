@@ -40,7 +40,7 @@ class ContactFormModal extends Component {
       <div className="pt-4">
         <Button type="button" className="btn mr-2 btn-lg" onClick={this.toggle}>
           {" "}
-          Contact Now
+          Inquire Now
         </Button>
         <Modal
           className="modal-lg"
@@ -63,11 +63,9 @@ class ContactFormModal extends Component {
                 <Segment>
                   <div>
                     <div className="row">
-                      <ContactForm col="col-lg-6"/>
+                      <ContactForm col="col-lg-6 pb-4"/>
                       <div className="contact-address col-lg-6 ">
-                        <div className="col">
-                          <h5 className="h5">Address & Contact Number</h5>
-                        </div>
+                        <h5 className="h5 pt-2">Contact Info</h5>
                         <div className="single-contact-info d-flex h-auto">
                           <div className="contact-icon mr-15 ">
                             <div className="address icon-box mb-4">
@@ -76,7 +74,10 @@ class ContactFormModal extends Component {
                               </h2>
                             </div>
                           </div>
-                          <h1 className="text-left lead black small ml-4 pt-3">
+                          <h1 className="text-left lead black small ml-4">
+                          <label className="col-form-label text-uppercase">
+                            Address
+                          </label><br/>
                             3201 Antel Global Corporate Center, J. Vargas Ave.,
                             Ortigas Center, Pasig City
                           </h1>
@@ -89,7 +90,10 @@ class ContactFormModal extends Component {
                               </h2>
                             </div>
                           </div>
-                          <h1 className="text-left lead black small ml-4 pt-3">
+                          <h1 className="text-left lead black small ml-4">
+                          <label className="col-form-label text-uppercase">
+                            phone
+                          </label><br/>
                             0000-000
                           </h1>
                         </div>
@@ -101,7 +105,10 @@ class ContactFormModal extends Component {
                               </h2>
                             </div>
                           </div>
-                          <h1 className="text-left lead black small ml-4 pt-3">
+                          <h1 className="text-left lead black small ml-4">
+                          <label className="col-form-label text-uppercase">
+                            website
+                          </label><br/>
                             www.sample.com
                           </h1>
                         </div>
@@ -113,7 +120,10 @@ class ContactFormModal extends Component {
                               </h2>
                             </div>
                           </div>
-                          <h1 className="text-left lead black small ml-4 pt-3">
+                          <h1 className="text-left lead black small ml-4">
+                          <label className="col-form-label text-uppercase">
+                            email
+                          </label><br/>
                             sample@sample.ph
                           </h1>
                         </div>

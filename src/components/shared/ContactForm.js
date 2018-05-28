@@ -41,9 +41,7 @@ const ContactForm = props => {
           required
         />
         <br />
-        <Button type="button" className="btn mr-2 btn-lg mt-3">
-          <Icon name="send" />Send
-        </Button>
+        <button className="btn mr-2 btn-md" ><Icon name='send' />Send</button>
       </div>
 
   );

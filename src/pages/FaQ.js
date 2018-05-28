@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Link from "gatsby-link";
 import Contact from "../components/Contact";
 import PageHeader from "../components/shared/PageHeader";
+import ContactUs from "../components/shared/ContactUs";
 
 const faqsProduct = [
   {
@@ -189,24 +190,29 @@ var SaleQuestions = sale.slice(0, 5);
 class faQ extends Component {
   render() {
     return (
-      <div className="pt-5 pb-1 mb-2" id="content-14">
-        <PageHeader title={"Frequently Asked Questions"} />
+      <div className="pt-5" id="content-14">
+        <PageHeader
+          title={"Frequently Asked Questions"}
+          breadcrumbItem1={"home"}
+          breadcrumbItem2={"faQ"}
+        />
 
-        <div className="container pt-5 pb-5">
+        <div className="container pt-5">
           <div className="f_rht ml-3 mr-3 mb-5 text-center">
-            <h2 className="display-4 text-uppercase font-400">FAQ &prime;s</h2>
-            <div className="divider-black text-center" />
-            <p className="pt-5 pb-3 text-center">
-              Here are the most frequently asked questions at Tatong. If you
-              have a question not answered here - or throughout our website -
-              please{" "}
-              <Link className="" to="./contact">
-                Contact Us
-              </Link>.
-            </p>
+            <h2 className="display-4 font-400">Have a Question?</h2>
+            <div className="container">
+              <p className="pt-2 pb-3 text-center">
+                Here are the most frequently asked questions at Tatong. If you
+                have a question not answered here - or throughout our website -
+                please{" "}
+                <Link className="" to="./contact">
+                  Contact Us
+                </Link>.
+              </p>
+            </div>
           </div>
-          <div className="row pb-5">
-            <div className="col-lg-6 col-md-10 col-sm-12 mx-auto">
+          <div className="row pt-4 pb-5">
+            <div className="col-lg-6 col-md-10 col-sm-12 mx-auto mb-3">
               <h1 className="faq mb-2">Product</h1>
               <hr className="mt-3 mb-4" />
               {ProductQuestions}
@@ -218,6 +224,7 @@ class faQ extends Component {
             </div>
           </div>
         </div>
+        <ContactUs />
       </div>
     );
   }

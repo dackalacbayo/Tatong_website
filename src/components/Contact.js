@@ -19,9 +19,8 @@ class Contact extends Component {
                       <div className="divider-black-left" />
                     </div>
                     <p className="pt-3">
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form.
+                      We&prime;re approachable and would love to speak to you. Feel free to call, send us
+                      an email or simply complete the enquiry form.
                     </p>
 
                     <div className="single-contact-info d-flex h-auto">
@@ -38,7 +37,6 @@ class Contact extends Component {
                       </h5>
                     </div>
                   </div>
-
                   <div className="col-md-6 col-sm-6 about_client about-left">
                     <ContactForm />
                   </div>

@@ -1,24 +1,47 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
-import PageHeader from '../components/shared/PageHeader'
-
+import { Header, Icon, Segment,Label, Dropdown,Grid,Input, TextArea, Divider, Button, Select } from 'semantic-ui-react'
+import PageHeader from "../components/shared/PageHeader";
+import ContactForm from "../components/shared/ContactForm";
+import image1 from "../assets/images/image1.jpg";
 
 class contact extends Component {
   render() {
     return (
-      <div className="pt-5 pb-5 mb-2" id="content-14">
-       <PageHeader title={"Contact"}/>
-        <div className="container pt-5">
-          <div className="row">
-            <div className="col-lg-8 col-md-10 col-sm-12 mx-auto">
-              <h1 className="profile-title display-4 mb-2 font-weight-normal">
-              </h1>
-              <p className="lead"></p>
-              <br />
+      <div className="pt-5" id="content-14">
+        <PageHeader
+          title={"Contact"}
+          breadcrumbItem1={"Home"}
+          breadcrumbItem2={"Contact"}
+        />
 
-            </div>
+        <div className="container pt-5">
+          <div className="f_rht ml-3 mr-3 mb-3 text-center">
+            <h2 className="display-4 font-400">Let&prime;s get in touch</h2>
+            <p className="pt-2 pb-3 text-center">
+              Questions? General Inquiries? Get in touch with us and we&prime;ll respond promptly.
+            </p>
           </div>
         </div>
+
+        <form
+          method="POST"
+          action="https://formspree.io/dackalacbayo@gmail.com"
+        >
+          <div className="container pb-5">
+            <div className="row about_row mt-5">
+              <div className="col-md-7 col-sm-6">
+                <ContactForm />
+              </div>
+              <div className="col-md-5 col-sm-6 about_client about-left">
+              <div className="page-title text-center">
+                <h4 className="title display-5">Find Us here</h4>
+              </div>
+                <img className="m-auto img-fluid" src={image1} height="100px" />
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     );
   }

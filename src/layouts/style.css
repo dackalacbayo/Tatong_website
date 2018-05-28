@@ -21,7 +21,7 @@ div {
 }
 
 .title-about {
-  color: #c70019;
+  color: #ca2127;
   font-weight: 400;
 }
 
@@ -34,9 +34,80 @@ div {
 }
 
 .style-shadow {
-  text-shadow: 1px 1px #2d343a, 2px 2px #2d343a, 3px 3px #2d343a,
-    4px 4px #2d343a, 5px 5px #2d343a, 6px 6px #2d343a, 7px 7px #2d343a,
-    8px 8px #2d343a, 9px 9px #2d343a, 10px 10px #2d343a;
+  text-shadow: 1px 1px #2d343a, 2px 2px #2d343a, 3px 3px #2d343a;
+}
+
+.style-shadow-light {
+  text-shadow: 1px 1px 0 #464646, 2px 2px 0 #000;
+}
+
+#rig {
+	max-width:900px;
+	margin:0 auto; /*center aligned*/
+	padding:0;
+	font-size:0; /* Remember to change it back to normal font size if have captions */
+	list-style:none;
+	background-color:none;
+}
+
+#rig li {
+	display:inline-block;
+	width:50%;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+/* The wrapper for each item */
+.rig-cell {
+	margin:12px;
+	box-shadow:0 1px 4px rgba(0,0,0,0.4);
+	padding:16px;
+	border:none;
+	color:#555;
+	background-color:white;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	position: relative;
+	overflow:hidden;
+}
+
+/* If have the image layer */
+.rig-img:after{
+	position:absolute;
+	top:80px;right:60px;bottom:70px;left:60px;
+	border:1px solid #fff;
+	content:'View More';
+	color:white;
+	padding-top:0;
+	font-size:15px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	transition:all 0.3s;
+	transform:scale(0);
+}
+
+#rig li:hover .rig-img:after {
+	opacity:1;
+	transform:scale(1);
+}
+
+/* If have the overlay layer */
+.rig-overlay {
+	position: absolute;
+	display:block;
+	top:0;left:0;bottom:0;right:0;
+	margin:auto;
+	background:white;
+	background-size:50px 50px;
+	opacity:0;
+	filter:alpha(opacity=0);/*For older IE*/
+	transition:all 0.3s;
+}
+#rig li:hover .rig-overlay {
+	opacity:0.5;
 }
 
 div.bg-banner {
@@ -99,11 +170,17 @@ nav#navbar-style-light {
 a.navbar-brand,
 a.nav-link {
   color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 a.nav-link:hover,
 a.navbar-brand:hover {
   color: black;
+}
+
+.navbar-dark .navbar-brand{
+  text-shadow: 1px 1px 0 #000000, 2px 2px 0 #5f5f5f;
 }
 
 /*navbar*/
@@ -165,9 +242,13 @@ div.vertical-line-right-white {
   top: 0;
 }
 div.page-header {
-  background: linear-gradient(to right, #d31027, #d7273c);
+  background: linear-gradient(to right, #a11a1f, #a11a1f);
   width: 100%;
   padding: 70px 0 0px;
+}
+div.page-contact {
+  background: linear-gradient(to right, #a11a1f, #a11a1f);
+  width: 100%;
 }
 ol.breadcrumb {
   display: -ms-flexbox;
@@ -183,13 +264,15 @@ ol.breadcrumb {
   letter-spacing: 2px;
 }
 li.breadcrumb-item.active {
-  color: #50c9c3;
+  color: #ffca9a;
+  text-transform: capitalize;
 }
 li.breadcrumb-item.active:hover {
-  color: #50c9c3;
+  color: #ffca9a;
 }
 a.breadcrumb-item {
   color: #fff;
+  text-transform: capitalize;
 }
 a.breadcrumb-item:hover {
   color: #fff;
@@ -317,7 +400,7 @@ li.img3:before {
   font: 700 18px/59px "Roboto", sans-serif;
   width: 180px;
   text-align: center;
-  background: #e5001c;
+  background: #ca212a;
   display: block;
   border: 0;
   color: #222222;
@@ -353,8 +436,8 @@ button:after {
 
 button.ui.button {
   color: #fff;
-  background-color: #e5001c;
-  border: 2px solid #e5001c;
+  background-color: #ca212a;
+  border: 2px solid #ca212a;
   border-radius: 0px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" !important;
@@ -363,7 +446,24 @@ button.ui.button {
 button.ui.button:hover {
   opacity: 1;
   right: 0;
-  border: 2px solid #e5001c;
+  border: 2px solid #ca212a;
+  background-color: #fff;
+  color: #000;
+}
+
+button.btn{
+  color: #fff;
+  background-color: #ca212a;
+  border: 2px solid #ca212a;
+  border-radius: 0px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" !important;
+}
+
+button.btn:hover {
+  opacity: 1;
+  right: 0;
+  border: 2px solid #ca212a;
   background-color: #fff;
   color: #000;
 }
@@ -659,7 +759,7 @@ textarea#exampleFormControlTextarea1 {
 }
 
 div.contact-address {
-  border-left: 2px solid #e5001c;
+  border-left: 2px solid #ca212a;
   height: 350px !important;
 }
 
@@ -676,7 +776,7 @@ div.address.icon-box {
     rgba(72, 44, 191, 1) 0%,
     rgba(106, 198, 240, 1) 100%
   );
-  background: linear-gradient(to right, #e5001c, #e5001c);
+  background: linear-gradient(to right, #ca212a, #ca212a);
   position: relative;
 }
 
@@ -955,7 +1055,7 @@ div.icon-box.icon-square {
     rgba(72, 44, 191, 1) 0%,
     rgba(106, 198, 240, 1) 100%
   );
-  background: linear-gradient(to right, #e5001c, #e5001c);
+  background: linear-gradient(to right, #000, #000);
   position: relative;
 }
 
@@ -966,7 +1066,7 @@ div.icon-box.icon-square {
 
 .round-icon-box.primary .icon-box:after,
 .square-icon-box.primary .icon-box:after {
-  border: 2px solid #e5001c;
+  border: 2px solid #000;
 }
 
 .square-icon-box .icon-box-wrapper .icon-box:after {
@@ -1061,7 +1161,7 @@ div.modal-footer {
   );
 }
 div.modal-header {
-  background: #e5001c;
+  background: #ca212a;
 }
 div.modal-body {
   background-color: #f3f3f3;
@@ -1116,6 +1216,10 @@ section.jumbotron.text-center {
     top: 60%;
     width: 320px;
     height: 200px;
+  }
+  .md-textcenter{
+    text-align: center;
+    font-size: 27px !important;
   }
 }
 
@@ -1213,6 +1317,9 @@ section.jumbotron.text-center {
     width: 100%;
     height: 140px;
   }
+  .md-textcenter{
+    text-align: center;
+  }
 }
 @media (min-width: 961px) {
   .btn-outline-secondary {
@@ -1235,6 +1342,9 @@ section.jumbotron.text-center {
     top: -20%;
     width: 608px;
     height: 400px;
+  }
+  .md-textcenter{
+    text-align: left;
   }
 }
 @media (min-width: 1025px) {
@@ -1262,6 +1372,9 @@ section.jumbotron.text-center {
   .card-img-top {
     width: 100%;
     height: 140px;
+  }
+  .md-textcenter{
+    text-align: left;
   }
 }
 @media (min-width: 2400px) {
