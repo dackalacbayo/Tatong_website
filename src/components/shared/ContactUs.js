@@ -10,7 +10,7 @@ const ContactUs = (props) => {
 
          <div className="row pb-4">
            <div className="col-lg-8 col-md-12 col-sm-12 mx-autor">
-             <h1 className="md-textcenter font-weight-normal text-uppercase text-white pt-4">Make your house into a home</h1>
+             <h1 className="md-textcenter font-weight-normal text-uppercase text-white pt-4 style-shadow-light">Make your house into a home</h1>
            </div>
            <div className="md-textcenter col-lg-4 col-md-12 col-sm-12 mx-auto">
              <ContactFormModal />

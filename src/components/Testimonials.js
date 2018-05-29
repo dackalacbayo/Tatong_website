@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import user from "../assets/images/if_user_male2_172626.png";
+import user from "../assets/images/if_user_1902268.png";
 
 const testimonials = [
   {
@@ -40,7 +40,7 @@ const TestimonialsDiv = ({ active, image, text, name, position }) => (
     <p className="testimonials lhtext-center mx-5 w-50 mx-auto">
       <i className="fa fa-quote-right text-white" /> {text}
     </p>
-    <img className="rounded-circle mb-4" src={image} height="100" />
+    <img className="rounded-circle mb-4 mt-3" src={image} height="100" />
     <br />
     <a className="client-name text-uppercase">{name}</a>
     <br />
@@ -75,7 +75,7 @@ class Testimonials extends Component {
                 className="carousel slide mt-5"
                 data-ride="carousel"
               >
-                <ol className="carousel-indicators">
+                <ol className="carousel-indicators testimonials">
                   <li
                     data-target="#carouselExampleIndicators"
                     data-slide-to="0"

@@ -10,7 +10,7 @@ class Footer extends Component {
             <div className="col-6 col-md">
               <ul className="list-unstyled text-small">
                 <a href="#">
-                  <h2 className="font-weight-normal">Tatong</h2>
+                  <h2 className="font-weight-normal text-white">Tatong</h2>
                 </a>
                 <br />
                 <small className="d-block mb-3 text-muted">

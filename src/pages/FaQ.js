@@ -193,8 +193,8 @@ class faQ extends Component {
       <div className="pt-5" id="content-14">
         <PageHeader
           title={"Frequently Asked Questions"}
-          breadcrumbItem1={"home"}
-          breadcrumbItem2={"faQ"}
+          breadcrumbItem1={"home /"} href1={"./"}
+          breadcrumbItem2={"faQ "} active2={"active"}
         />
 
         <div className="container pt-5">

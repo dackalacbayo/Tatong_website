@@ -23,14 +23,14 @@ const items = [
   },
   {
     title: "interior design",
-    href: "./",
+    href: "./projects#interior",
     image: image3,
     desc:
       "Some quick example text to build on the card title and make up the bulk of the cards content"
   },
   {
     title: "build",
-    href: "./",
+    href: "./projects#build",
     image: image4,
     desc:
       "Some quick example text to build on the card title and make up the bulk of the cards content"

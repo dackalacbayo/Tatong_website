@@ -11,8 +11,8 @@ class contact extends Component {
       <div className="pt-5" id="content-14">
         <PageHeader
           title={"Contact"}
-          breadcrumbItem1={"Home"}
-          breadcrumbItem2={"Contact"}
+          breadcrumbItem1={"Home /"} href1={"./"}
+          breadcrumbItem2={"Contact"} active2={"active"}
         />
 
         <div className="container pt-5">

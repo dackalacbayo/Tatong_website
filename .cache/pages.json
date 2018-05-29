@@ -1,12 +1,5 @@
 [
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -42,7 +35,14 @@
         "path": "/page-2/"
     },
     {
-        "componentChunkName": "component---src-pages-projects-js",
+        "componentChunkName": "component---src-pages-projects-furniture-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects-furniture.json",
+        "path": "/projects/Furniture/"
+    },
+    {
+        "componentChunkName": "component---src-pages-projects-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "projects.json",

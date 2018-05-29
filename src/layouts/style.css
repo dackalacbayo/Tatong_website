@@ -25,6 +25,12 @@ div {
   font-weight: 400;
 }
 
+.title-project {
+  color: #ca2127;
+  font-weight: 500;
+  letter-spacing: 8px;
+}
+
 .font-400 {
   font-weight: 400;
 }
@@ -75,19 +81,6 @@ div {
 }
 
 /* If have the image layer */
-.rig-img:after{
-	position:absolute;
-	top:80px;right:60px;bottom:70px;left:60px;
-	border:1px solid #fff;
-	content:'View More';
-	color:white;
-	padding-top:0;
-	font-size:15px;
-	opacity:0;
-	filter:alpha(opacity=0);
-	transition:all 0.3s;
-	transform:scale(0);
-}
 
 #rig li:hover .rig-img:after {
 	opacity:1;
@@ -140,8 +133,8 @@ section#features {
 }
 
 div.divider {
-  border-bottom: 2px solid #ffc029;
-  width: 15%;
+  border-bottom: 2px solid #000;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -263,11 +256,11 @@ ol.breadcrumb {
   margin-left: -10px;
   letter-spacing: 2px;
 }
-li.breadcrumb-item.active {
+a.breadcrumb-item.active {
   color: #ffca9a;
   text-transform: capitalize;
 }
-li.breadcrumb-item.active:hover {
+a.breadcrumb-item.active:hover {
   color: #ffca9a;
 }
 a.breadcrumb-item {
@@ -283,7 +276,7 @@ a.breadcrumb-item:hover {
   padding-right: 8px;
   padding-right: 0.5rem;
   color: #fff;
-  content: "/";
+  content: none;
 }
 /*Banner*/
 
@@ -315,45 +308,27 @@ li.project-list {
   list-style-type: circle;
 }
 
-.carousel-indicators li {
-  background-color: #ff9393;
-}
-.carousel-indicators .active {
-  background-color: red;
+.carousel-indicators li{
+    text-indent:0;
+    width:100%;
+    height: 100%;
+    height: auto;
+    border:none;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
-li.img1:before {
-  height: 50px;
-  width: 75px;
-  background-image: url("../assets/images/image1.jpg");
-  background-position: top left, center center, center center;
-  background-size: 100% 100%, cover, cover;
-  overflow: hidden;
-  text-align: center;
-  background-repeat: no-repeat;
-  border: 2px solid #ffffffd1;
+.carousel-indicators.testimonials li {
+  background-color: #f3c0c0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
-li.img2:before {
-  height: 50px;
-  width: 75px;
-  background-image: url("../assets/images/image2.jpg");
-  background-position: top left, center center, center center;
-  background-size: 100% 100%, cover, cover;
-  overflow: hidden;
-  text-align: center;
-  background-repeat: no-repeat;
-  border: 2px solid #ffffffd1;
+.carousel-indicators.testimonials .active {
+  background-color: #e5001c;
 }
-li.img3:before {
-  height: 50px;
-  width: 75px;
-  background-image: url("../assets/images/image3.jpg");
-  background-position: top left, center center, center center;
-  background-size: 100% 100%, cover, cover;
-  overflow: hidden;
-  text-align: center;
-  background-repeat: no-repeat;
-  border: 2px solid #ffffffd1;
+.carousel-indicators .active {
+  background-color: #e5001c;
 }
 
 /*CompanyProfile*/
@@ -434,16 +409,18 @@ button:after {
   transition: all 300ms linear 0s;
 }
 
-button.ui.button {
+button.ui.button, button.btn {
   color: #fff;
   background-color: #ca212a;
   border: 2px solid #ca212a;
-  border-radius: 0px;
-  font-weight: bold;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 500;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" !important;
 }
 
-button.ui.button:hover {
+button.ui.button:hover, button.btn:hover {
   opacity: 1;
   right: 0;
   border: 2px solid #ca212a;
@@ -451,22 +428,6 @@ button.ui.button:hover {
   color: #000;
 }
 
-button.btn{
-  color: #fff;
-  background-color: #ca212a;
-  border: 2px solid #ca212a;
-  border-radius: 0px;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" !important;
-}
-
-button.btn:hover {
-  opacity: 1;
-  right: 0;
-  border: 2px solid #ca212a;
-  background-color: #fff;
-  color: #000;
-}
 /*AboutUs*/
 
 /*furniture*/
@@ -833,12 +794,6 @@ div.row.footer {
   margin-top: 30px;
 }
 
-.font-weight-normal {
-  font-weight: 400 !important;
-  color: white;
-  font-size: 32px !important;
-}
-
 .btn-outline-secondary {
   color: #ffffff;
   background-color: #06aba8;
@@ -1021,6 +976,11 @@ i.fas {
   margin: 14px;
 }
 
+i.fas.black {
+  color: #000;
+  margin: 14px;
+}
+
 i.fa {
   color: #000;
 }
@@ -1030,9 +990,21 @@ i.footer.fas {
   margin: 5px;
 }
 
-i.bene.fas {
-  color: #000000;
-  margin-right: 15px !important;
+h4 {
+    margin: 20px 10px 10px;
+}
+p {
+    margin: 10px;
+}
+
+
+i.furniture.fas{
+  color: #000;
+  margin: -20px;
+  font-size: 40px;
+  border: 2px solid #777;
+  padding: 5px;
+  padding-right: 20px;
 }
 
 a.fab {
@@ -1221,11 +1193,23 @@ section.jumbotron.text-center {
     text-align: center;
     font-size: 27px !important;
   }
-}
+  .img-height {
+    max-width: 100%;
+    height: 100px;
+  }
+  .rig-img:after{
+  	position:absolute;
+  	top:50px;right:30px;bottom:60px;left:30px;
+  	content:'View More';
+  	color:white;
+  	padding-top:0;
+  	font-size:15px;
+  	opacity:0;
+  	filter:alpha(opacity=0);
+  	transition:all 0.3s;
+  	transform:scale(0);
+  }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 
 @media (min-width: 414px) {
@@ -1376,6 +1360,27 @@ section.jumbotron.text-center {
   .md-textcenter{
     text-align: left;
   }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .img-height {
+    max-width: 100%;
+    height: 150px;
+  }
+.rig-img:after{
+	position:absolute;
+	top:80px;right:60px;bottom:80px;left:60px;
+	/* border:1px solid #fff; */
+	content:'View More';
+	color:white;
+	padding-top:0;
+	font-size:15px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	transition:all 0.3s;
+	transform:scale(0);
+}
 }
 @media (min-width: 2400px) {
   .btn-outline-secondary {
