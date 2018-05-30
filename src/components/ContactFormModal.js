@@ -1,19 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Modal, ModalHeader, ModalBody, ModalFooter, Form } from "reactstrap";
-import {
-  Header,
-  Icon,
-  Segment,
-  Label,
-  Dropdown,
-  Grid,
-  Input,
-  TextArea,
-  Divider,
-  Button,
-  Select
-} from "semantic-ui-react";
+import {Button,Segment} from "semantic-ui-react";
 import image1 from "../assets/images/image2.jpg";
 import logo from "../assets/images/image3.jpg";
 import ContactForm from "../components/shared/ContactForm";

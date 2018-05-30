@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "111767579a8013d7caa1451bbef0c5eb",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -421,14 +431,16 @@
       "siteMetadata": {
         "title": "Tatong"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-29T10:11:24.491Z",
+      "buildTime": "2018-05-30T05:30:49.383Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4ff0f29977f836bf808d63b80f10ba59",
+        "contentDigest": "057ea098f512be05f5121214d4a41f69",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -449,7 +461,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "78122bcf061436017bc626d202f84197",
+        "contentDigest": "0be34b15061d2bd1f32bd36b717a2726",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -470,7 +482,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "77a414c4730496af5f11a1287ca540eb",
+        "contentDigest": "872617bca5fdc8b02ff2b991efeb26a2",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -491,7 +503,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6398d85c85e5ffcd911157735fd3a482",
+        "contentDigest": "03bdeafa3a386afc839e03b92cc6acbc",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -512,7 +524,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb1090d732f9698cb46db908f22a2fc5",
+        "contentDigest": "9d6c11a8a30fb843c033c2e73b5c0643",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -533,7 +545,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "422554f3c227dbe86a79967cfb9ead72",
+        "contentDigest": "e7d6ed551ca44418894ea51bb3a846f4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -554,7 +566,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3525aa3059fc6361071febdf11c55c30",
+        "contentDigest": "6b706f37acfb0035e6b4da881422f94e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -575,7 +587,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bd7419b2c419f33ebf122e1daed3a372",
+        "contentDigest": "3fe8a0db6e14bc67120a56efc812051c",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -596,8 +608,71 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "892e2fc46d7e4f6fa47ce5750407ff57",
+        "contentDigest": "67972590b14cac1edf7a21e1bf624db3",
         "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Lighting/": {
+      "layout": "index",
+      "jsonName": "projects-lighting.json",
+      "internalComponentName": "ComponentProjectsLighting",
+      "path": "/projects/Lighting/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Lighting.js",
+      "componentChunkName": "component---src-pages-projects-lighting-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Lighting.js",
+      "id": "SitePage /projects/Lighting/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6f427773c6455f636354d9ffb7ddf4f6",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Interior/": {
+      "layout": "index",
+      "jsonName": "projects-interior.json",
+      "internalComponentName": "ComponentProjectsInterior",
+      "path": "/projects/Interior/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Interior.js",
+      "componentChunkName": "component---src-pages-projects-interior-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Interior.js",
+      "id": "SitePage /projects/Interior/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ba071944f9b321fbff80cac121838dd6",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Build/": {
+      "layout": "index",
+      "jsonName": "projects-build.json",
+      "internalComponentName": "ComponentProjectsBuild",
+      "path": "/projects/Build/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Build.js",
+      "componentChunkName": "component---src-pages-projects-build-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Build.js",
+      "id": "SitePage /projects/Build/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "23391c068639bc6a1ed7550a194f3097",
+        "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
     }
