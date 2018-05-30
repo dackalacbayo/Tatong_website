@@ -42,6 +42,13 @@
         "path": "/page-2/"
     },
     {
+        "componentChunkName": "component---src-pages-projects-build-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects-build.json",
+        "path": "/projects/Build/"
+    },
+    {
         "componentChunkName": "component---src-pages-projects-furniture-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -56,11 +63,11 @@
         "path": "/projects/"
     },
     {
-        "componentChunkName": "component---src-pages-404-js",
+        "componentChunkName": "component---src-pages-projects-interior-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "404-html.json",
-        "path": "/404.html"
+        "jsonName": "projects-interior.json",
+        "path": "/projects/Interior/"
     },
     {
         "componentChunkName": "component---src-pages-projects-lighting-js",
@@ -70,17 +77,10 @@
         "path": "/projects/Lighting/"
     },
     {
-        "componentChunkName": "component---src-pages-projects-interior-js",
+        "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "projects-interior.json",
-        "path": "/projects/Interior/"
-    },
-    {
-        "componentChunkName": "component---src-pages-projects-build-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "projects-build.json",
-        "path": "/projects/Build/"
+        "jsonName": "404-html.json",
+        "path": "/404.html"
     }
 ]

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "111767579a8013d7caa1451bbef0c5eb",
+        "contentDigest": "8e7cb46a4fcf24ec6ee4028ffacb56c8",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -435,12 +435,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-30T05:30:49.383Z",
+      "buildTime": "2018-05-30T08:13:12.451Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "057ea098f512be05f5121214d4a41f69",
+        "contentDigest": "b6c8fe36ff558df5362f33c152128649",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -461,7 +461,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0be34b15061d2bd1f32bd36b717a2726",
+        "contentDigest": "52c3e45e6848797e242d609bc80524e5",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -482,7 +482,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "872617bca5fdc8b02ff2b991efeb26a2",
+        "contentDigest": "7eecdecf1e02fd6a635cfc5afb0fb306",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -503,7 +503,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "03bdeafa3a386afc839e03b92cc6acbc",
+        "contentDigest": "8b079ba2409ea8477d6377c5fb450824",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -524,7 +524,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9d6c11a8a30fb843c033c2e73b5c0643",
+        "contentDigest": "aebf125a3283e95a0deee197fc6cc517",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -545,112 +545,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e7d6ed551ca44418894ea51bb3a846f4",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/Furniture/": {
-      "layout": "index",
-      "jsonName": "projects-furniture.json",
-      "internalComponentName": "ComponentProjectsFurniture",
-      "path": "/projects/Furniture/",
-      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Furniture.js",
-      "componentChunkName": "component---src-pages-projects-furniture-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Furniture.js",
-      "id": "SitePage /projects/Furniture/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6b706f37acfb0035e6b4da881422f94e",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/": {
-      "layout": "index",
-      "jsonName": "projects.json",
-      "internalComponentName": "ComponentProjects",
-      "path": "/projects/",
-      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/index.js",
-      "componentChunkName": "component---src-pages-projects-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/index.js",
-      "id": "SitePage /projects/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3fe8a0db6e14bc67120a56efc812051c",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "67972590b14cac1edf7a21e1bf624db3",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/Lighting/": {
-      "layout": "index",
-      "jsonName": "projects-lighting.json",
-      "internalComponentName": "ComponentProjectsLighting",
-      "path": "/projects/Lighting/",
-      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Lighting.js",
-      "componentChunkName": "component---src-pages-projects-lighting-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Lighting.js",
-      "id": "SitePage /projects/Lighting/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6f427773c6455f636354d9ffb7ddf4f6",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/Interior/": {
-      "layout": "index",
-      "jsonName": "projects-interior.json",
-      "internalComponentName": "ComponentProjectsInterior",
-      "path": "/projects/Interior/",
-      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Interior.js",
-      "componentChunkName": "component---src-pages-projects-interior-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Interior.js",
-      "id": "SitePage /projects/Interior/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ba071944f9b321fbff80cac121838dd6",
+        "contentDigest": "1c6066367c747dcf9416169c9f061a8c",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -671,8 +566,113 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "23391c068639bc6a1ed7550a194f3097",
+        "contentDigest": "78792a7d1a6c85d627bdd017814b89ed",
         "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Furniture/": {
+      "layout": "index",
+      "jsonName": "projects-furniture.json",
+      "internalComponentName": "ComponentProjectsFurniture",
+      "path": "/projects/Furniture/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Furniture.js",
+      "componentChunkName": "component---src-pages-projects-furniture-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Furniture.js",
+      "id": "SitePage /projects/Furniture/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c2312a014248c6837473b56b711f7826",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/": {
+      "layout": "index",
+      "jsonName": "projects.json",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/index.js",
+      "componentChunkName": "component---src-pages-projects-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/index.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "edaf46ebe2c60687a37d4b75d1577141",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Interior/": {
+      "layout": "index",
+      "jsonName": "projects-interior.json",
+      "internalComponentName": "ComponentProjectsInterior",
+      "path": "/projects/Interior/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Interior.js",
+      "componentChunkName": "component---src-pages-projects-interior-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Interior.js",
+      "id": "SitePage /projects/Interior/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8e17e1d0380bdfc286cb5164e11ad86e",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Lighting/": {
+      "layout": "index",
+      "jsonName": "projects-lighting.json",
+      "internalComponentName": "ComponentProjectsLighting",
+      "path": "/projects/Lighting/",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Lighting.js",
+      "componentChunkName": "component---src-pages-projects-lighting-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/projects/Lighting.js",
+      "id": "SitePage /projects/Lighting/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9ffbe381a3c9d9779923544ca68cb1f1",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "C:/Users/AGCUSER/Desktop/TatongWebsite/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "625b3cfb540be8cb354cbf403f5ca677",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }

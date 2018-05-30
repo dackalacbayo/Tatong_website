@@ -1302,9 +1302,6 @@ section.jumbotron.text-center {
     max-width: 70%;
     height: auto;
   }
-  .carousel-indicators{
-    display: block;
-  }
 }
 
 @media (min-width: 414px) {
