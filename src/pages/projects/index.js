@@ -92,7 +92,7 @@ const ProjectItems = ({
             <div className="row">
               <ul id="rig">
                 <li>
-                  <a className="rig-cell" href="#">
+                  <a className="rig-cell" href={href}>
                     <span className="rig-img">
                       <img
                         className="img-height py-2"
@@ -104,7 +104,7 @@ const ProjectItems = ({
                   </a>
                 </li>
                 <li>
-                  <a className="rig-cell" href="#">
+                  <a className="rig-cell" href={href}>
                     <span className="rig-img" />
                     <img
                       className="img-height py-2"
@@ -116,7 +116,7 @@ const ProjectItems = ({
                 </li>
                 <div className="w-100" />
                 <li>
-                  <a className="rig-cell" href="#">
+                  <a className="rig-cell" href={href}>
                     <span className="rig-img">
                       <img
                         className="img-height py-2"
@@ -128,7 +128,7 @@ const ProjectItems = ({
                   </a>
                 </li>
                 <li>
-                  <a className="rig-cell" href="#">
+                  <a className="rig-cell" href={href}>
                     <span className="rig-img">
                       <img
                         className="img-height py-2"
@@ -148,6 +148,14 @@ const ProjectItems = ({
   </section>
 );
 
+const NavItem = ({title, id}) => (
+  <li className="nav-item">
+    <Link className="nav-link" to={`#${id}`} >
+      {title}
+    </Link>
+  </li>
+)
+
 class projects extends Component {
   render() {
     return (
@@ -160,6 +168,10 @@ class projects extends Component {
           active2={"active"}
         />
         <div className="container pt-5">
+          <ul className="nav nav-tabs nav-justified flex-nowrap" role="tablist">
+            {project.map((items) => <NavItem {...items} />)}
+          </ul>
+
           {project.map(item => <ProjectItems {...item} />)}
         </div>
 

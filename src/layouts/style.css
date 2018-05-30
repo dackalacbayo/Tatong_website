@@ -216,20 +216,27 @@ div.nav-link {
 }
 
 .nav-tabs .nav-link {
-    background: #e7eef5;
+  background: #e7eef5;
+  color: #004184;
+  background-color: #e7eef5;
+  width: 100%;
+  height: 100%;
+  border-color: #e7eef5 #ffffff #FFF;
+  cursor: pointer;
+}
+
+.nav-tabs .nav-link:hover {
+    background: #fff;
     border-top-width: 3px;
+    border-color: #000 #faf6fb #fff;
+    color: #185a9d;
+    background: #e7eef5;
     color: #185a9d;
     background-color: #e7eef5;
     width: 100%;
     height: 100%;
-    border-color: #e7eef5 #ffffff #FFF;
 }
-.nav-tabs .nav-link.active {
-    background: #fff;
-    border-top-width: 3px;
-    border-color: #185a9d #faf6fb #fff;
-    color: #185a9d;
-}
+
 
 .nav-pills .nav-link{
   cursor: pointer;
