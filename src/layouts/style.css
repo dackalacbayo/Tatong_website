@@ -47,6 +47,10 @@ div {
   text-shadow: 1px 1px 0 #464646, 2px 2px 0 #000;
 }
 
+.googlemap{
+  height: 40vh;
+  widows: 100%;
+}
 #rig {
 	max-width:900px;
 	margin:0 auto; /*center aligned*/
@@ -1059,6 +1063,13 @@ img.sec3_img {
 i.fas {
   color: #fff;
   margin: 14px;
+}
+
+
+i.fas.red {
+  color: red;
+  margin: 14px;
+  cursor: pointer;
 }
 
 i.fas.black {

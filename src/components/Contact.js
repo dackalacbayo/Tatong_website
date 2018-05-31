@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import ContactForm from "../components/shared/ContactForm";
+import GoogleMap from "../components/shared/GoogleMap";
 import image1 from "../assets/images/image1.jpg";
 import image2 from "../assets/images/image2.jpg";
 import image3 from "../assets/images/image3.jpg";
-import ContactForm from "../components/shared/ContactForm";
 
 class Contact extends Component {
   render() {
@@ -15,13 +16,11 @@ class Contact extends Component {
                 <div className="row about_row">
                   <div className="who_we_area col-md-6 col-sm-6 mb-5">
                     <div className="subtittle ">
-                      <h2 className="display-4 text-uppercase font-400">let&prime;s get in touch</h2>
+                      <h2 className="display-4 text-uppercase font-400">
+                        let&prime;s get in touch
+                      </h2>
                       <div className="divider-black-left" />
                     </div>
-                    <p className="pt-3">
-                      We&prime;re approachable and would love to speak to you. Feel free to call, send us
-                      an email or simply complete the enquiry form.
-                    </p>
 
                     <div className="single-contact-info d-flex h-auto">
                       <div className="contact-icon mr-15 ">
@@ -36,8 +35,19 @@ class Contact extends Component {
                         Ortigas Center, Pasig City
                       </h5>
                     </div>
+
+                    <GoogleMap height={"40vh"}/>
                   </div>
                   <div className="col-md-6 col-sm-6 about_client about-left">
+                    <div className="page-title text-center mb-4">
+                      <h4 className="title display-5">Contact Us</h4>
+
+                      <p className="pt-3">
+                        Interested in working together? We&prime;re approachable
+                        and would love to speak to you. Feel free to call, send
+                        us an email or simply complete the enquiry form.
+                      </p>
+                    </div>
                     <ContactForm />
                   </div>
                 </div>

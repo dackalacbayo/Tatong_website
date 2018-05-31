@@ -9,6 +9,8 @@
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "google-map-react": "^1.0.3",
+    "google-maps-react": "^2.0.2",
     "jquery": "^3.3.1",
     "react": "^16.3.2",
     "react-addons-css-transition-group": "^15.6.2",

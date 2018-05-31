@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Link from "gatsby-link";
 import PageHeader from "../../components/shared/PageHeader";
 import ContactUs from "../../components/shared/ContactUs";
+import Projects from "../../components/shared/Projects";
 import image1 from "../../assets/images/image1.jpg";
 import image2 from "../../assets/images/image2.jpg";
 import image3 from "../../assets/images/image3.jpg";
@@ -162,55 +163,7 @@ class Furniture extends Component {
           breadcrumbItem3={"Furniture"}
           active3={"active"}
         />
-        <div className="container">
-          <div className="row justify-content-center text-center section-intro">
-            <div className="col-12 col-md-9 col-lg-10 pt-5 pb-3">
-              <div className="page-title text-center">
-                <h5 className="title">Projects</h5>
-                <div className="space-10" />
-              </div>
-              <h2 className="display-4 text-uppercase font-400">Creative Meets Living</h2>
-              <div className="divider-black text-center" />
-            </div>
-          </div>
-          <div className="row mt-4">
-            <section className="section custom-tabs">
-              <div className="container">
-                <div className="row mb-5 py-5">
-                  <div className="col-md-4 border-right element-animate">
-                    <div
-                      className="nav flex-column nav-pills mt-4"
-                      id="v-pills-tab"
-                      role="tablist"
-                      aria-orientation="vertical"
-                    >
-                      {furnitureItems
-                        .filter(items => {
-                          return items.display === true;
-                        })
-                        .map(items => {
-                          return <FurnitureItem {...items} />;
-                        })}
-                    </div>
-                  </div>
-                  <div className="col-md-1" />
-                  <div className="col-md-7 element-animate">
-                    <div className="tab-content" id="v-pills-tabContent">
-                      {furnitureItems
-                        .filter(item => {
-                          return item.display === true;
-                        })
-                        .map(item => {
-                          return <TabItem {...item} />;
-                        })}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-        <ContactUs />
+        <Projects data={furnitureItems}/>
       </div>
     );
   }
