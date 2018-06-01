@@ -56,24 +56,7 @@ class ContactFormModal extends Component {
                       <div className="contact-address col-lg-6 ">
                         <h5 className="h5 pt-2">Contact Info</h5>
 
-                        <div className="single-contact-info d-flex h-auto">
-                          <div className="contact-icon mr-15 ">
-                            <div className="address icon-box mb-4">
-                              <h2 className="featurette-heading py-2 pl-2">
-                                <i className="address fas fa-map-marker-alt" />
-                              </h2>
-                            </div>
-                          </div>
-                          <h1 className="text-left lead black small ml-4">
-                            <label className="col-form-label text-uppercase">
-                              Address
-                            </label>
-                            <br />
-                            3201 Antel Global Corporate Center, J. Vargas Ave.,
-                            Ortigas Center, Pasig City
-                          </h1>
-                        </div>
-                        <GoogleMap height={"30vh"} />
+                        <GoogleMap height={"33vh"} />
                       </div>
                     </div>
                   </div>

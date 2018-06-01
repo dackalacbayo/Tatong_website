@@ -24,7 +24,24 @@ class GoogleMap extends Component {
   render() {
     var { height } = this.props
     return (
-      <div className="mt-5" style={{ height: (height), width: "100%" }}>
+      <div style={{ height: (height), width: "100%" }}>
+      <div className="single-contact-info d-flex h-auto mb-5">
+        <div className="contact-icon mr-15 ">
+          <div className="address icon-box mb-4">
+            <h2 className="featurette-heading py-2 pl-2">
+              <i className="address fas fa-map-marker-alt" />
+            </h2>
+          </div>
+        </div>
+        <h1 className="text-left lead black small ml-4">
+          <label className="col-form-label text-uppercase">
+            Address
+          </label>
+          <br />
+          3201 Antel Global Corporate Center, J. Vargas Ave.,
+          Ortigas Center, Pasig City
+        </h1>
+      </div>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBpgAnwP6W1kwXhYmncsoEFOf7ixz77Nqo" }}
           defaultCenter={this.props.center}

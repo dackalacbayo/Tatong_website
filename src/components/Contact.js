@@ -21,22 +21,7 @@ class Contact extends Component {
                       </h2>
                       <div className="divider-black-left" />
                     </div>
-
-                    <div className="single-contact-info d-flex h-auto">
-                      <div className="contact-icon mr-15 ">
-                        <div className="address icon-box mb-4">
-                          <h2 className="featurette-heading py-2 pl-2">
-                            <i className="address fas fa-map-marker-alt" />
-                          </h2>
-                        </div>
-                      </div>
-                      <h5 className="text-left black ml-4 pt-3">
-                        3201 Antel Global Corporate Center, J. Vargas Ave.,
-                        Ortigas Center, Pasig City
-                      </h5>
-                    </div>
-
-                    <GoogleMap height={"40vh"}/>
+                    <GoogleMap height={"37vh"} />
                   </div>
                   <div className="col-md-6 col-sm-6 about_client about-left">
                     <div className="page-title text-center mb-4">
