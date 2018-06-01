@@ -24,8 +24,8 @@ class GoogleMap extends Component {
   render() {
     var { height } = this.props
     return (
-      <div style={{ height: (height), width: "100%" }}>
-      <div className="single-contact-info d-flex h-auto mb-5">
+      <div style={{ height: (height), width: "100%" }} className="mb-5 pb-5">
+      <div className="single-contact-info d-flex h-auto mb-5 pb-5">
         <div className="contact-icon mr-15 ">
           <div className="address icon-box mb-4">
             <h2 className="featurette-heading py-2 pl-2">

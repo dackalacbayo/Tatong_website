@@ -49,12 +49,12 @@ class contact extends Component {
               <div className="col-md-7 col-sm-6">
                 <ContactForm />
               </div>
-              <div className="col-md-5 col-sm-6 about_client">
+              <div className="col-md-5 col-sm-6 about_client mb-5">
                 <div className="page-title text-center">
                   <h4 className="title display-5">Find Us here</h4>
                 </div>
 
-                <GoogleMap height={"26vh"} />
+                <GoogleMap height={"31vh"} />
               </div>
             </div>
           </div>

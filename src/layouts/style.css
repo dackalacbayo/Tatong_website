@@ -121,8 +121,12 @@ div.bg-banner {
 
 div.panel.bg{
   background-color: black;
-  padding: 4px;
+  padding: 20px;
   box-shadow: 8px 8px #6f6f6f96;
+}
+
+h2.title{
+  font-size: 3rem;
 }
 
 div.bg-banner.opacity {
@@ -389,10 +393,11 @@ li.project-list {
 }
 
 .carousel-indicators.testimonials li {
-  background-color: #f3c0c0;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
+    background-color: #f3c0c0;
+    border: 2px solid #f3c0c0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
 }
 .carousel-indicators.testimonials .active {
   background-color: #e5001c;
@@ -703,7 +708,16 @@ a.btn.btn-secondary.view-project {
 
 /*testimonials*/
 section#testimonials {
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  @include dark(#333);
+  background: url("../assets/images/red-triangle.png")no-repeat center center/cover;
+  /* background-color: #d31027; */
+  background-attachment: fixed, fixed;
+  background-position: top left, center center, center center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  height: 100%;
 }
 
 p.testimonials {
@@ -723,7 +737,7 @@ p.testimonials::after {
   bottom: -20px;
 }
 
-p.testimonials:before {
+/* p.testimonials:before {
   width: 20px;
   height: 20px;
   background: #9b9b9b;
@@ -736,7 +750,7 @@ p.testimonials:after {
   border: 10px solid transparent;
   border-bottom-color: #efefef;
   border-left-color: #efefef;
-}
+} */
 
 a.client-name {
   color: #ff5555;
@@ -1316,35 +1330,7 @@ section.jumbotron.text-center {
   }
 }
 
-@media (min-width: 414px) {
-  .btn-outline-secondary {
-    position: absolute;
-    position: absolute;
-    right: 111px;
-    top: 184px;
-  }
-}
 
-@media (min-width: 375px) {
-  .btn-outline-secondary {
-    position: absolute;
-    right: 23%;
-    top: 185px;
-  }
-  div.bg-banner {
-    height: 550px;
-  }
-
-  img.intro-image {
-    right: auto;
-    left: 50%;
-    margin-left: -163px;
-    bottom: auto;
-    top: 56%;
-    width: 340px;
-    height: 222px;
-  }
-}
 
 @media (min-width: 481px) {
   .btn-outline-secondary {

@@ -1,6 +1,52 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 
+const socialIcons = [
+  { icon: "fab fa-twitter", name: "Twitter", href: "www.twitter.com" },
+  { icon: "fab fa-facebook", name: "Facebook", href: "www.facebook.com" },
+  { icon: "fab fa-instagram", name: "Instagram", href: "www.instagram.com" },
+  { icon: "fab fa-github", name: "Github", href: "www.github.com" }
+];
+
+const featuresData = [
+  {name:'Cool stuff', href:'www.sample.com'},
+  {name:'Random feature', href:'www.sample.com'},
+  {name:'Team feature', href:'www.sample.com'},
+  {name:'Stuff for developers', href:'www.sample.com'},
+  {name:'Another one', href:'www.sample.com'},
+  {name:'Last time', href:'www.sample.com'},
+]
+
+const resourcesData = [
+  {name:'Resource', href:'www.sample.com'},
+  {name:'Resource name', href:'www.sample.com'},
+  {name:'Another resource', href:'www.sample.com'},
+  {name:'Final resource', href:'www.sample.com'},
+]
+
+const aboutData = [
+  {name:'Team', href:'www.sample.com'},
+  {name:'Locations', href:'www.sample.com'},
+  {name:'Privacy', href:'www.sample.com'},
+  {name:'Terms', href:'www.sample.com'},
+]
+
+const SocialIcons = ({ icon, href }) => (
+  <li className="socialIcons">
+    <a href={href} className={icon}>
+      <span className="label"> </span>
+    </a>
+  </li>
+);
+
+const FooterInfo = ({name, href}) => (
+  <li>
+    <a className="text-muted" href={href}>
+      {name}
+    </a>
+  </li>
+)
+
 class Footer extends Component {
   render() {
     return (
@@ -23,151 +69,33 @@ class Footer extends Component {
               <i className="footer fas fa-at" />
               <a href="http://sample.com/">
                 <small className="text-muted site"> www.sample.com</small>
-              </a>{" "}
-              <br />
+              </a><br />
               <i className="footer fas fa-phone" />
-              <small className="text-muted"> 000-0000 </small>
-              <br />
+              <small className="text-muted"> 000-0000 </small><br />
               <i className="footer fas fa-envelope" />
-              <small className="text-muted">info@sample.ph</small> <br />
+              <small className="text-muted">info@sample.ph</small><br />
               <hr />
               <ul className="list-unstyled text-small icons">
-                <li className="socialIcons">
-                  <a href="#" className="fab fa-twitter">
-                    <span className="label"> </span>
-                  </a>
-                </li>
-                <li className="socialIcons">
-                  <a href="#" className="fab fa-facebook">
-                    <span className="label"> </span>
-                  </a>
-                </li>
-                <li className="socialIcons">
-                  <a href="#" className="fab fa-instagram">
-                    <span className="label"> </span>
-                  </a>
-                </li>
-                <li className="socialIcons">
-                  <a href="#" className="fab fa-github">
-                    <span className="label"> </span>
-                  </a>
-                </li>
-                <li className="socialIcons">
-                  <a href="#" className="socialIcons fas fa-envelope ">
-                    <span className="label"> </span>
-                  </a>
-                </li>
+                {socialIcons.map(item => <SocialIcons {...item} />)}
               </ul>
             </div>
 
             <div className="col-6 col-md">
               <h5>Features</h5>
               <ul className="list-unstyled text-small">
-                <li>
-                  <a className="text-muted" href="#">
-                    Cool stuff
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Random feature
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Team feature
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Stuff for developers
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Another one
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Last time
-                  </a>
-                </li>
+                {featuresData.map(feature => <FooterInfo {...feature} />)}
               </ul>
             </div>
             <div className="col-6 col-md">
               <h5>Resources</h5>
               <ul className="list-unstyled text-small">
-                <li>
-                  <a className="text-muted" href="#">
-                    Resource
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Resource name
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Another resource
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Final resource
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md">
-              <h5>Resources</h5>
-              <ul className="list-unstyled text-small">
-                <li>
-                  <a className="text-muted" href="#">
-                    Business
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Education
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Government
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Gaming
-                  </a>
-                </li>
+                {resourcesData.map(resource => <FooterInfo {...resource} />)}
               </ul>
             </div>
             <div className="col-6 col-md">
               <h5>About</h5>
               <ul className="list-unstyled text-small">
-                <li>
-                  <a className="text-muted" href="#">
-                    Team
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Locations
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Privacy
-                  </a>
-                </li>
-                <li>
-                  <a className="text-muted" href="#">
-                    Terms
-                  </a>
-                </li>
+                  {aboutData.map(about => <FooterInfo {...about} />)}
               </ul>
             </div>
           </div>

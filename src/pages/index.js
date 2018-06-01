@@ -9,10 +9,7 @@ import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 
-// import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/css/bootstrap.css";
-// import 'jquery/dist/jquery.min.js'
-// import 'bootstrap/dist/js/bootstrap.js';
 
 import {Header,Icon,Segment,Label,Dropdown,Grid,Input,TextArea,Divider,Button} from "semantic-ui-react";
 

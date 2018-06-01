@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import user from "../assets/images/if_user_1902268.png";
+import user from "../assets/images/if_user_male2_172626.png";
 
 const testimonials = [
   {
@@ -37,10 +37,11 @@ const TestimonialsDiv = ({ active, image, text, name, position }) => (
       active ? "carousel-item text-center active" : "carousel-item text-center"
     }
   >
+  <img className="rounded-circle mb-4 mt-3" src={image} height="100" />
     <p className="testimonials lhtext-center mx-5 w-50 mx-auto">
       <i className="fa fa-quote-right text-white" /> {text}
     </p>
-    <img className="rounded-circle mb-4 mt-3" src={image} height="100" />
+
     <br />
     <a className="client-name text-uppercase">{name}</a>
     <br />
