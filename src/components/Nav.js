@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 
-class Header extends Component {
+class Nav extends Component {
   render() {
     return (
       <nav
@@ -42,4 +42,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Nav;
