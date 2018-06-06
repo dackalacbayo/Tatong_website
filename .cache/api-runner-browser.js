@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('C:/Users/AGCUSER/Desktop/TatongWebsite/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js'),
+      plugin: require('C:/Users/AGCUSER/Desktop/Tatong_website/node_modules/gatsby-plugin-netlify-cms/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks

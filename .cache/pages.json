@@ -25,7 +25,7 @@
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "fa-q.json",
-        "path": "/faQ/"
+        "path": "/FaQ/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",
