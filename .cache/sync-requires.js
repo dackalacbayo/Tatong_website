@@ -33,5 +33,6 @@ exports.json = {
   "projects.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects.json"),
   "projects-interior.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects-interior.json"),
   "projects-lighting.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects-lighting.json"),
-  "404-html.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\404-html.json")
+  "404-html.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\404-html.json"),
+  "fa-q.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\fa-q.json")
 }

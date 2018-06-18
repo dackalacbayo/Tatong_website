@@ -28,7 +28,8 @@ exports.json = {
   "projects.json": require("gatsby-module-loader?name=path---projects!C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects.json"),
   "projects-interior.json": require("gatsby-module-loader?name=path---projects-interior!C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects-interior.json"),
   "projects-lighting.json": require("gatsby-module-loader?name=path---projects-lighting!C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects-lighting.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\404-html.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\404-html.json"),
+  "fa-q.json": require("gatsby-module-loader?name=path---fa-q!C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\fa-q.json")
 }
 
 exports.layouts = {
