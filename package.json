@@ -10,6 +10,7 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-source-filesystem": "^1.5.39",
     "google-map-react": "^1.0.3",
     "google-maps-react": "^2.0.2",
     "jquery": "^3.3.1",
