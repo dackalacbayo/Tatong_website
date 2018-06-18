@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 import {
-  Header,
   Icon,
   Segment,
   Label,
@@ -17,11 +16,13 @@ import PageHeader from "../components/shared/PageHeader";
 import GoogleMap from "../components/shared/GoogleMap";
 import ContactForm from "../components/shared/ContactForm";
 import image1 from "../assets/images/image1.jpg";
+import Header from '../components/Header'
 
 class contact extends Component {
   render() {
     return (
       <div className="pt-5" id="content-14">
+      <Header />
         <PageHeader
           title={"Contact"}
           breadcrumbItem1={"Home /"}

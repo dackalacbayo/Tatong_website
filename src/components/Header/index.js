@@ -23,7 +23,7 @@ class Nav extends Component {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
+          <div className="collapse navbar-collapse auto" id="navbarResponsive">
             <ul className="navbar-nav ml-auto pl-4">
               <li className="nav-item">
               <Link className="nav-link js-scroll-trigger pr-3" to="../projects">Projects</Link>

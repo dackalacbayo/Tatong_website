@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import Contact from "../components/Contact";
 import PageHeader from "../components/shared/PageHeader";
 import ContactUs from "../components/shared/ContactUs";
+import Header from '../components/Header'
 
 const faqsProduct = [
   {
@@ -191,6 +192,7 @@ class faQ extends Component {
   render() {
     return (
       <div className="pt-5" id="content-14">
+      <Header />
         <PageHeader
           title={"Frequently Asked Questions"}
           breadcrumbItem1={"home /"} href1={"./"}

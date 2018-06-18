@@ -7,6 +7,7 @@ import image1 from "../../assets/images/image1.jpg";
 import image2 from "../../assets/images/image2.jpg";
 import image3 from "../../assets/images/image3.jpg";
 import image4 from "../../assets/images/image4.jpg";
+import Header from '../../components/Header'
 
 const project = [
   {
@@ -160,6 +161,7 @@ class projects extends Component {
   render() {
     return (
       <div className="pt-5" id="content-14">
+      <Header />
         <PageHeader
           title={"Projects of Tatong"}
           breadcrumbItem1={"Home /"}

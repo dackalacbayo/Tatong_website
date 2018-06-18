@@ -8,13 +8,15 @@ import Services from "../components/Services";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
-
+import '../layouts/style.css'
 import "bootstrap/dist/css/bootstrap.css";
+import Header from '../components/Header'
 
-import {Header,Icon,Segment,Label,Dropdown,Grid,Input,TextArea,Divider,Button} from "semantic-ui-react";
+import {Icon,Segment,Label,Dropdown,Grid,Input,TextArea,Divider,Button} from "semantic-ui-react";
 
 const IndexPage = () => (
   <div>
+  <Header/>
     <section id="banner" className="">
       <Banner />
     </section>

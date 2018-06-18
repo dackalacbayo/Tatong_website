@@ -1,14 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import 'bootstrap/dist/css/bootstrap.css';
 import './bs-product.css'
 import './style.css'
 import '../assets/web-fonts-with-css/css/fontawesome-all.css'
 
-// import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/js/bootstrap.js";
 
 
 const Layout = ({ children, data }) => (
@@ -26,12 +25,13 @@ const Layout = ({ children, data }) => (
     />
 
     <div>
-      <Nav />
+
+
       {children()}
       <Footer />
     </div>
 
-  
+
   </div>
 )
 
