@@ -7,7 +7,7 @@ import './bs-product.css'
 import './style.css'
 import '../assets/web-fonts-with-css/css/fontawesome-all.css'
 
-import "bootstrap/dist/js/bootstrap.js";
+// import "bootstrap/dist/js/bootstrap.js";
 
 
 const Layout = ({ children, data }) => (
