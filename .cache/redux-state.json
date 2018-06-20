@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "66060c947182e70c6f46cd200869741a",
+        "contentDigest": "f2047eab37bbfd1dee49b6ccf0c2bc59",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -782,12 +782,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-20T00:24:38.945Z",
+      "buildTime": "2018-06-20T07:45:45.194Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d69368869146fb104233a351855537c2",
+        "contentDigest": "e9080b88d20bd8c283e406aa8b641a8c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1556,7 +1556,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "971c98626d3f049cb4fd2f61085816f1",
+        "contentDigest": "f4918d32471dcc8aef0ffbbc18491a90",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src\\components\\Contact.js\"",
@@ -1566,11 +1566,11 @@
       "absolutePath": "C:/Users/AGCUSER/Desktop/Tatong_website/src/components/Contact.js",
       "relativePath": "components/Contact.js",
       "extension": "js",
-      "size": 1891,
-      "prettySize": "1.89 kB",
-      "modifiedTime": "2018-06-20T02:16:01.294Z",
+      "size": 2454,
+      "prettySize": "2.45 kB",
+      "modifiedTime": "2018-06-20T07:45:26.719Z",
       "accessTime": "2018-06-06T06:49:40.273Z",
-      "changeTime": "2018-06-20T02:16:01.294Z",
+      "changeTime": "2018-06-20T07:45:26.719Z",
       "birthTime": "2018-06-06T06:49:40.273Z",
       "root": "C:/",
       "dir": "C:/Users/AGCUSER/Desktop/Tatong_website/src/components",
@@ -1586,12 +1586,12 @@
       "rdev": 0,
       "ino": 562949954035622,
       "atimeMs": 1528267780272.7522,
-      "mtimeMs": 1529460961293.6465,
-      "ctimeMs": 1529460961293.6465,
+      "mtimeMs": 1529480726719.0522,
+      "ctimeMs": 1529480726719.0522,
       "birthtimeMs": 1528267780272.7522,
       "atime": "2018-06-06T06:49:40.273Z",
-      "mtime": "2018-06-20T02:16:01.294Z",
-      "ctime": "2018-06-20T02:16:01.294Z",
+      "mtime": "2018-06-20T07:45:26.719Z",
+      "ctime": "2018-06-20T07:45:26.719Z",
       "birthtime": "2018-06-06T06:49:40.273Z"
     },
     "C:/Users/AGCUSER/Desktop/Tatong_website/src/layouts/style.css absPath of file": {
@@ -6297,7 +6297,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "77a03c098c92c80aa121c72f927a001e",
+        "contentDigest": "9a329ddf205e595af19bc0ec0f79cb20",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6318,7 +6318,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7756dbce1ceb7bd1735c7df9b8b6a7ce",
+        "contentDigest": "7b2220856631ef17872fe213333d2d1a",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6339,7 +6339,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "84452acb881048cb43a726d47f53a399",
+        "contentDigest": "d4d703233ba71a730c777cd5b7ccf9e0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6360,7 +6360,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "143eac74056cb58dc636a7ff97df6018",
+        "contentDigest": "87cde846f3ad1179b2ce2872d47439f0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6381,7 +6381,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b5fa28d0fe816a72b255cfccc4f294bc",
+        "contentDigest": "4e98e7df55bc37ff7666f9ab0ad90e04",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6402,7 +6402,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "05d27b67f899b8d9d59184b51a8e0171",
+        "contentDigest": "094525d1637d34ef7110ec69f1c45755",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6423,7 +6423,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fd7beeae8aa15fa561d68073340a74d3",
+        "contentDigest": "84c9089a10dd3aeb7c7a456d4c72380d",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6444,7 +6444,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "535aeab0df8b37eddf7e3e6717dec29f",
+        "contentDigest": "1f3c0290e1841a692f3417233015b8ac",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6465,7 +6465,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "454fbe24ec05e97f8e375eb2aad05d25",
+        "contentDigest": "cc2643f44e7621a9203c2945b535c073",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6486,7 +6486,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2f16c2446811c108aedcfa01fad61385",
+        "contentDigest": "ea8af48e7741e3566a8d5aeb75f6681b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -6507,7 +6507,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f827d90b843af31c66ae202f414690ae",
+        "contentDigest": "d671588a11a8ae429953d700bbaa8169",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
