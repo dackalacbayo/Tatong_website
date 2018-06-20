@@ -29,10 +29,8 @@ const ContactForm = props => {
     var { col } = props
   return (
       <div className={col}>
-      <form
-        method="POST"
-        action="https://formspree.io/dackalacbayo@gmail.com"
-      >
+      <form name="contactInfo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contactInfo" />
         <FormSection items={items} />
         <label className="col-form-label">
           Message<span className="text-danger"> *</span>
