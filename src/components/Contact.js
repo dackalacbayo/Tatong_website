@@ -33,21 +33,7 @@ class Contact extends Component {
                         us an email or simply complete the enquiry form.
                       </p>
                     </div>
-
                     <ContactForm />
-                    <form name="contact" data-netlify="true"
-      data-netlify-honeypot="bot-field" netlify>
-                      <p>
-                        <label>Name <input type="text" name="name" /></label>
-                      </p>
-                      <p>
-                        <label>Email <input type="email" name="email" /></label>
-                      </p>
-                      <p>
-                        <button type="submit">Send</button>
-                      </p>
-                    </form>
-
                   </div>
                 </div>
               </div>
