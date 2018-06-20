@@ -35,7 +35,8 @@ class Contact extends Component {
                     </div>
 
                     <ContactForm />
-                    <form name="contact" netlify>
+                    <form name="contact" data-netlify="true"
+      data-netlify-honeypot="bot-field" netlify>
                       <p>
                         <label>Name <input type="text" name="name" /></label>
                       </p>
