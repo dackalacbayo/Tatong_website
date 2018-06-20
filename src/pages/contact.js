@@ -41,7 +41,7 @@ class contact extends Component {
           </div>
         </div>
 
-        <form
+        <form name="submitContact"
           method="POST"
         netlify >
           <div className="container pb-5">
