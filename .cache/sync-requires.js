@@ -10,7 +10,7 @@ exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\404.js")),
   "component---src-pages-contact-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\contact.js")),
-  "component---src-pages-fa-q-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\FaQ.js")),
+  "component---src-pages-fa-q-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\faQ.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\index.js")),
   "component---src-pages-page-2-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\page-2.js")),
   "component---src-pages-projects-build-js": preferDefault(require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\src\\pages\\projects\\Build.js")),
@@ -33,6 +33,5 @@ exports.json = {
   "projects.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects.json"),
   "projects-interior.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects-interior.json"),
   "projects-lighting.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\projects-lighting.json"),
-  "404-html.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\404-html.json"),
-  "fa-q.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\fa-q.json")
+  "404-html.json": require("C:\\Users\\AGCUSER\\Desktop\\Tatong_website\\.cache\\json\\404-html.json")
 }

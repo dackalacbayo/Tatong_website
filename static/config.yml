@@ -9,7 +9,7 @@ public_folder: assets/images
 collections:
   - name: "faq"
     label: "FaQ"
-    folder: "src/pages/faq"
+    folder: "src/pages/faQ"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
