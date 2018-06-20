@@ -29,6 +29,10 @@ const ContactForm = props => {
     var { col } = props
   return (
       <div className={col}>
+      <form
+        method="POST"
+        action="https://formspree.io/dackalacbayo@gmail.com"
+      >
         <FormSection items={items} />
         <label className="col-form-label">
           Message<span className="text-danger"> *</span>
@@ -42,6 +46,7 @@ const ContactForm = props => {
         />
         <br />
         <button className="btn mr-2 btn-md" ><Icon name='send' />Send</button>
+        </form>
       </div>
 
   );

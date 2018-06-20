@@ -41,9 +41,10 @@ class contact extends Component {
           </div>
         </div>
 
-        <form name="submitContact"
+        <form
           method="POST"
-        netlify >
+          action="https://formspree.io/dackalacbayo@gmail.com"
+        >
           <div className="container pb-5">
             <div className="row about_row mt-5">
               <div className="col-md-7 col-sm-6">
