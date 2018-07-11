@@ -7,6 +7,7 @@ import image1 from "../../assets/images/image1.jpg";
 import image2 from "../../assets/images/image2.jpg";
 import image3 from "../../assets/images/image3.jpg";
 import image4 from "../../assets/images/image4.jpg";
+import Header from '../../components/Header'
 
 const lightingItems = [
   {
@@ -89,6 +90,7 @@ class Lighting extends Component {
   render() {
     return (
       <div className="pt-5">
+      <Header />
         <PageHeader
           title={"Lighting"}
           breadcrumbItem1={"Home /"}
