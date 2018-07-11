@@ -26,13 +26,13 @@ class Nav extends Component {
           <div className="collapse navbar-collapse auto" id="navbarResponsive">
             <ul className="navbar-nav ml-auto pl-4">
               <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger pr-3" to="./../projects">Projects</Link>
+              <Link className="nav-link js-scroll-trigger pr-3" to="../projects">Projects</Link>
               </li>
               <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger pr-3" to="./../contact">Contact</Link>
+              <Link className="nav-link js-scroll-trigger pr-3" to="../contact">Contact</Link>
               </li>
               <li className="nav-item">
-               <Link className="nav-link js-scroll-trigger pr-3" to="./../faQ">FaQ</Link>
+               <Link className="nav-link js-scroll-trigger pr-3" to="../faQ">FaQ</Link>
               </li>
             </ul>
           </div>
